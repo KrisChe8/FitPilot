@@ -2,7 +2,7 @@
 
 **FitPilot** is a personalized AI fitness and diet assistant built with Next.js, Vapi (voice AI), and Gemini (text-based AI) that helps users generate custom health plans based on their physical parameters and lifestyle needs — all through a natural voice conversation.
 
----
+## 🌐 [Check out the live FitPilot app](https://fit-pilot.vercel.app)
 
 ## 🎯 Project Purpose
 
