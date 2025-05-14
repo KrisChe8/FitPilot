@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignOutButton,
-} from "@clerk/nextjs";
+// import {
+//   SignedIn,
+//   SignedOut,
+//   SignInButton,
+//   SignOutButton,
+// } from "@clerk/nextjs";
 import { ArrowRightIcon } from "lucide-react";
 import React from "react";
 import Link from "next/link";

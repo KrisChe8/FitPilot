@@ -9,7 +9,6 @@ import {
 } from "@/components/ui/card";
 import {
   ChevronRight,
-  Dumbbell,
   Sparkles,
   Users,
   Clock,
