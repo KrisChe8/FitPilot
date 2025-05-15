@@ -158,3 +158,60 @@
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-in-out forwards;
 }
+
+@media (max-width: 500px) {
+  .mobile-hidden {
+    display: none;
+  }
+  .mobileHeroDec {
+    top: -1.8rem;
+    left: -1rem;
+  }
+  .mobile-mainTitle {
+    font-size: 40px;
+  }
+  .maxWidth-90 {
+    max-width: 90%;
+  }
+  .maxWidth-96 {
+    max-width: 96%;
+  }
+  .paddingR-5 {
+    padding-right: 5px;
+  }
+  .paddingT-2 {
+    padding-top: 2rem;
+  }
+  .padding0 {
+    padding: 0;
+  }
+  .gap18 {
+    gap: 1.8rem;
+  }
+  .gap1 {
+    gap: 1rem;
+  }
+  .mb18 {
+    margin-bottom: 1.8rem;
+  }
+  .mb0 {
+    margin-bottom: 0;
+  }
+  .fd-col {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .alc {
+    align-items: center;
+  }
+  .fsz1 {
+    font-size: 1rem;
+  }
+
+  .overflowH {
+    overflow-x: hidden;
+  }
+  .tac {
+    text-align: center;
+  }
+}

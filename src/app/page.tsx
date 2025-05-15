@@ -17,11 +17,11 @@ const HomePage = () => {
       <section className="relative z-10 py-24 flex-grow">
         <div className="container mx-auto px-4">
           <div className="grid grid-col-1 lg:grid-cols-12 gap-8 items-center relative">
-            <div className="absolute -top-10 left-0 w-40 h-40 border-l-2 border-t-2 border-[var(--border-g)]"></div>
+            <div className="mobileHeroDec absolute -top-10 left-0 w-40 h-40 border-l-2 border-t-2 border-[var(--border-g)]"></div>
 
             {/* LEFT SIDE */}
             <div className="lg:col-span-7 space-y-8 relative">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+              <h1 className="mobile-mainTitle text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                 <div>
                   <span className="text-[var(--primary-foreground)]">
                     Transform
@@ -50,22 +50,22 @@ const HomePage = () => {
                 to your unique goals and preferences.
               </p>
               {/* STATS */}
-              <div className="flex items-center gap-10 py-6 font-mono">
-                <div className="flex flex-col">
+              <div className="gap18 flex items-center gap-10 py-6 font-mono">
+                <div className="flex flex-col alc">
                   <div className="text-2xl text-[var(--primary)]">850+</div>
                   <div className="text-xs uppercase tracking-wider">
                     ACTIVE USERS
                   </div>
                 </div>
                 <div className="h-12 w-px bg-gradient-to-b from-transparent via-[var(--border)] to-transparent"></div>
-                <div className="flex flex-col">
+                <div className="flex flex-col alc">
                   <div className="text-2xl text-[var(--primary)]">3min</div>
                   <div className="text-xs uppercase tracking-wider">
                     GENERATION
                   </div>
                 </div>
                 <div className="h-12 w-px bg-gradient-to-b from-transparent via-[var(--border)] to-transparent"></div>
-                <div className="flex flex-col">
+                <div className="flex flex-col alc">
                   <div className="text-2xl text-[var(--primary)]">100%</div>
                   <div className="text-xs uppercase tracking-wider">
                     PERSONALIZED
@@ -74,7 +74,7 @@ const HomePage = () => {
               </div>
 
               {/* Button */}
-              <div className="flex flex-col sm:flex-row gap-4 pt-6">
+              <div className="flex flex-col sm:flex-row gap-4 pt-6 mb18">
                 <Button
                   // size="lg"
                   asChild

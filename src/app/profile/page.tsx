@@ -141,15 +141,15 @@ const ProfilePage = () => {
                                       key={routineIndex}
                                       className="border border-border rounded p-3 bg-[var(--background)]"
                                     >
-                                      <div className="flex justify-between items-start mb-2">
+                                      <div className="flex justify-between items-start mb-2 mb0">
                                         <h4 className="font-semibold text-[var(--foreground)]">
                                           {routine.name}
                                         </h4>
                                         <div className="flex items-center gap-2">
-                                          <div className="px-2 py-1 rounded bg-[var(--primary)] text-primary text-xs font-mono">
+                                          <div className="px-2 py-1 rounded bg-[var(--primary)] text-primary text-xs font-mono tac">
                                             {routine.sets} SETS
                                           </div>
-                                          <div className="px-2 py-1 rounded bg-[var(--secondary)] text-[var(--primary)] text-xs font-mono">
+                                          <div className="px-2 py-1 rounded bg-[var(--secondary)] text-[var(--primary)] text-xs font-mono tac">
                                             {routine.reps} REPS
                                           </div>
                                         </div>

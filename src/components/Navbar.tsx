@@ -8,13 +8,13 @@ import { Button } from "./ui/button";
 const Navbar = () => {
   const { isSignedIn } = useUser();
   return (
-    <header className="fixed top-0 left-0 right-0 z-50  backdrop-blur-md border-b  py-3">
-      <div className="container mx-auto flex items-center justify-between">
+    <header className="w-full fixed top-0 left-0 right-0 z-50  backdrop-blur-md border-b  py-3 paddingR-5">
+      <div className="container mx-auto flex items-center justify-between gap1">
         <Link href="/" className="flex items-center gap-2">
           <div className="p-1 bg-primary rounded">
             <ZapIcon className="w-4 h-4 text-primary" />
           </div>
-          <span className="text-xl font-bold font-mono">
+          <span className="fsz1 text-xl font-bold font-mono">
             Fit<span className="text-[#22C55E]">Pilot</span>.ai
           </span>
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <>
               <Link
                 href="/"
-                className="flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
+                className="mobile-hidden flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
               >
                 <HomeIcon size={16} />
                 <span>Home</span>
@@ -42,12 +42,12 @@ const Navbar = () => {
                 className="flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
               >
                 <UserIcon size={16} />
-                <span>My Profile</span>
+                <span className="mobile-hidden">My Profile</span>
               </Link>
               <Button
                 asChild
                 variant="outline"
-                className="ml-2 text-[#22C55E] font-bold border-[hsl(145_70%_72%)] hover:text-white hover:bg-[hsl(145,61%,28%)]"
+                className="mobile-hidden ml-2 text-[#22C55E] font-bold border-[hsl(145_70%_72%)] hover:text-white hover:bg-[hsl(145,61%,28%)]"
               >
                 <Link href="/generate-program" className="font-bold">
                   Get Started

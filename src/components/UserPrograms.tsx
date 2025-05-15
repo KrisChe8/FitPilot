@@ -21,7 +21,7 @@ import { USER_PROGRAMS } from "@/constants";
 
 const UserPrograms = () => {
   return (
-    <div className="w-full pb-24 pt-16 relative">
+    <div className="w-full pb-24 pt-16 relative paddingT-2">
       <div className="container mx-auto max-w-6xl px-4">
         {/* HEADER- PROGRAM GALLERY */}
         <div className="bg-[var(--card)] backdrop-blur-sm border border-[var(--border-g)] rounded-lg overflow-hidden mb-16">
@@ -53,21 +53,21 @@ const UserPrograms = () => {
             </p>
 
             {/* STATS */}
-            <div className="flex items-center justify-center gap-16 mt-10 font-mono">
+            <div className="flex fd-col items-center justify-center gap-16 mt-10 font-mono">
               <div className="flex flex-col items-center">
                 <p className="text-3xl text-[var(--primary)]">850+</p>
                 <p className="text-sm text-[var(--muted-foreground)] uppercase tracking-wide mt-1">
                   PROGRAMS
                 </p>
               </div>
-              <div className="w-px h-12 bg-[var(--border)]"></div>
+              <div className="mobile-hidden w-px h-12 bg-[var(--border)]"></div>
               <div className="flex flex-col items-center">
                 <p className="text-3xl text-[var(--primary)]">3min</p>
                 <p className="text-sm text-[var(--muted-foreground)] uppercase tracking-wide mt-1">
                   CREATION TIME
                 </p>
               </div>
-              <div className="w-px h-12 bg-[var(--border)]"></div>
+              <div className="mobile-hidden w-px h-12 bg-[var(--border)]"></div>
               <div className="flex flex-col items-center">
                 <p className="text-3xl text-[var(--primary)]">100%</p>
                 <p className="text-sm text-[var(--muted-foreground)] uppercase tracking-wide mt-1">
@@ -193,12 +193,12 @@ const UserPrograms = () => {
               </CardContent>
 
               <CardFooter className="px-5 py-4 border-t border-[var(--border-g)]">
-                <Link href={`/programs/${program.id}`} className="w-full">
-                  <Button className="w-full bg-[var(--primary)] text-[var(--primary-foreground)] hover:bg-[var(--primary)]">
-                    View Program Details
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </Link>
+                {/* <Link href={`/programs/${program.id}`} className="w-full"> */}
+                <Button className="w-full bg-[var(--primary)] text-[var(--primary-foreground)] hover:bg-[var(--primary)]">
+                  View Program Details
+                  <ChevronRight className="ml-2 h-4 w-4" />
+                </Button>
+                {/* </Link> */}
               </CardFooter>
             </Card>
           ))}
