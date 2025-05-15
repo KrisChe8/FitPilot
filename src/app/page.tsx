@@ -50,7 +50,7 @@ const HomePage = () => {
                 to your unique goals and preferences.
               </p>
               {/* STATS */}
-              <div className="gap18 flex items-center gap-10 py-6 font-mono">
+              <div className="gap18 flex items-center gap-10 py-6 font-mono g1">
                 <div className="flex flex-col alc">
                   <div className="text-2xl text-[var(--primary)]">850+</div>
                   <div className="text-xs uppercase tracking-wider">
@@ -92,7 +92,7 @@ const HomePage = () => {
             </div>
 
             {/* RIGHT side content */}
-            <div className="lg:col-span-5 relative ">
+            <div className="lg:col-span-5 relative mw90">
               {/* Corners */}
               <div className="absolute -inset-4 pointer-events-none">
                 <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-[var(--border-g)]" />

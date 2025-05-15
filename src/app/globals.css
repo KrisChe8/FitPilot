@@ -215,3 +215,20 @@
     text-align: center;
   }
 }
+
+@media (max-width: 390px) {
+  .tinyHidden {
+    display: none;
+  }
+  .g1 {
+    gap: 1rem;
+  }
+  .mw90 {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .mw96 {
+    max-width: 96%;
+    margin: 0 auto;
+  }
+}

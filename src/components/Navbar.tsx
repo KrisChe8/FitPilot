@@ -33,7 +33,7 @@ const Navbar = () => {
                 href="/generate-program"
                 className="flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
               >
-                <DumbbellIcon size={16} />
+                <DumbbellIcon size={16} className="tinyHidden" />
                 <span>Generate Program</span>
               </Link>
 

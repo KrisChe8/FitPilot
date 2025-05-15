@@ -21,7 +21,7 @@ import { USER_PROGRAMS } from "@/constants";
 
 const UserPrograms = () => {
   return (
-    <div className="w-full pb-24 pt-16 relative paddingT-2">
+    <div className="w-full pb-24 pt-16 relative paddingT-2 mw96">
       <div className="container mx-auto max-w-6xl px-4">
         {/* HEADER- PROGRAM GALLERY */}
         <div className="bg-[var(--card)] backdrop-blur-sm border border-[var(--border-g)] rounded-lg overflow-hidden mb-16">
