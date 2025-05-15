@@ -53,7 +53,7 @@ const ProfilePage = () => {
                 <Button
                   key={plan._id}
                   onClick={() => setSelectedPlanId(plan._id)}
-                  className={`text-[var(--foreground)] border hover:text-white ${
+                  className={`text-[var(--foreground)] max-w-full h-auto flex-wrap border hover:text-white ${
                     selectedPlanId === plan._id
                       ? "bg-[var(--cyber-glow-primary)] text-[var(--primary)] border-[var(--primary)]"
                       : "bg-transparent border-[var(--border)] hover:border-[var(--primary)]"
