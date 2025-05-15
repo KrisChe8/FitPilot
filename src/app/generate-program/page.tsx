@@ -165,7 +165,7 @@ const GenerateProgramPage = () => {
         {/* call area */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {/* AI CARD */}
-          <Card className="bg-[var(--card)] backdrop-blur-sm border border-[var(--border-g)] overflow-hidden relative">
+          <Card className="bg-[var(--card)] backdrop-blur-sm border border-[var(--border-g)] overflow-hidden relative items-center">
             <div className="aspect-video flex flex-col items-center justify-center p-6 relative">
               {/* AI VOICE ANIMATION */}
               <div
@@ -245,7 +245,7 @@ const GenerateProgramPage = () => {
 
           {/* USER CARD */}
           <Card
-            className={`bg-[var(--card)] backdrop-blur-sm border overflow-hidden relative`}
+            className={`bg-[var(--card)] backdrop-blur-sm border overflow-hidden relative items-center`}
           >
             <div className="aspect-video flex flex-col items-center justify-center p-6 relative">
               {/* User Image */}

@@ -23,7 +23,7 @@ const Navbar = () => {
             <>
               <Link
                 href="/"
-                className="mobile-hidden flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
+                className="mobile-hidden tabletHidden flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
               >
                 <HomeIcon size={16} />
                 <span>Home</span>
@@ -42,12 +42,12 @@ const Navbar = () => {
                 className="flex items-center gap-1.5 text-sm hover:text-[#22C55E] transition-colors"
               >
                 <UserIcon size={16} />
-                <span className="mobile-hidden">My Profile</span>
+                <span className="mobile-hidden tabletHidden">My Profile</span>
               </Link>
               <Button
                 asChild
                 variant="outline"
-                className="mobile-hidden ml-2 text-[#22C55E] font-bold border-[hsl(145_70%_72%)] hover:text-white hover:bg-[hsl(145,61%,28%)]"
+                className="mobile-hidden tabletHidden ml-2 text-[#22C55E] font-bold border-[hsl(145_70%_72%)] hover:text-white hover:bg-[hsl(145,61%,28%)]"
               >
                 <Link href="/generate-program" className="font-bold">
                   Get Started

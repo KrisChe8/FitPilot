@@ -8,7 +8,7 @@ const ProfileHeader = ({ user }: { user: UserResource | null | undefined }) => {
     <div className="mb-10 relative backdrop-blur-sm border border-[var(--border)] p-6">
       <CornerElements />
 
-      <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+      <div className="flex flex-col items-center md:flex-row  md:items-center gap-6">
         <div className="relative">
           {user.imageUrl ? (
             <div className="relative w-24 h-24 overflow-hidden  rounded-2xl">

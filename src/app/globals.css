@@ -159,6 +159,24 @@
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 
+@media (max-width: 768px) {
+  .tabletHidden {
+    display: none;
+  }
+  .jcc-T {
+    justify-content: center;
+  }
+  .mb12-T {
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media (max-width: 610px) {
+  .gap2-T {
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 500px) {
   .mobile-hidden {
     display: none;
