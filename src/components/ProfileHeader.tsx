@@ -30,7 +30,7 @@ const ProfileHeader = ({ user }: { user: UserResource | null | undefined }) => {
 
         <div className="flex-1">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
-            <h1 className="text-3xl font-bold tracking-tight">
+            <h1 className="text-3xl tac-T font-bold tracking-tight">
               <span className="text-[var(--foreground)]">{user.fullName}</span>
             </h1>
             <div className="flex items-center bg-[var(--cyber-terminal-bg)] backdrop-blur-sm border border-[var(--border)] rounded px-3 py-1">
